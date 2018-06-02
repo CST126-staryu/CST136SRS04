@@ -129,13 +129,13 @@ For each hop, follow a [Great Circle](https://en.wikipedia.org/wiki/Great-circle
 
 You must take 2 routes. The first is to travel from South to North, in order. The second is to travel from West to East in order. 
 
-Report the distance travelled between each pair of locations in their order. South to North and West to East. 
+Record the distance travelled between each pair of locations in their order. South to North and West to East. 
 
 Use 3 different data structures for the data to solve the distances. std::forward_list, std::vector, and std::map. 
 
 This is a total of 6 combinations of calculations but you can only enter the data once into your program as a std::array. 
 
-Report the distances in order of the destination Island Name distance and sum the total distance travelled for that route. Do NOT sum the distances by looping, you must use an algorithm. 
+Record the distances in order of the destination Island Name distance and sum the total distance travelled for that route. Do NOT sum the distances by looping, you must use an algorithm. 
 
 ## For those students wishing an extra challenge:
 
