@@ -1,0 +1,88 @@
+﻿  angle.cpp
+  latitude.cpp
+  location.cpp
+  longitude.cpp
+  main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3083): error C2672: 'operator __surrogate_func': no matching overloaded function found
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3178): note: see reference to function template instantiation 'std::pair<_RanIt,_RanIt> std::_Partition_by_median_guess_unchecked<_RanIt,_Pr>(_RanIt,_RanIt,_Pr)' being compiled
+          with
+          [
+              _RanIt=std::reference_wrapper<const GPS::Location> *,
+              _Pr=std::less<void>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3212): note: see reference to function template instantiation 'void std::_Sort_unchecked<std::reference_wrapper<const GPS::Location>*,int,_Fn>(_RanIt,_RanIt,_Diff,_Pr)' being compiled
+          with
+          [
+              _Fn=std::less<void>,
+              _RanIt=std::reference_wrapper<const GPS::Location> *,
+              _Diff=int,
+              _Pr=std::less<void>
+          ]
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3218): note: see reference to function template instantiation 'void std::sort<_RanIt,std::less<void>>(_RanIt,_RanIt,_Pr)' being compiled
+          with
+          [
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::reference_wrapper<const GPS::Location>>>>,
+              _Pr=std::less<void>
+          ]
+  main.cpp(132): note: see reference to function template instantiation 'void std::sort<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>>(_RanIt,_RanIt)' being compiled
+          with
+          [
+              _Ty=std::reference_wrapper<const GPS::Location>,
+              _RanIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::reference_wrapper<const GPS::Location>>>>
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3083): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3083): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3083): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3083): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3084): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3084): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3084): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3084): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3084): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3090): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3090): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3090): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3090): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3090): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3091): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3091): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3091): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3091): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3091): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3103): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3103): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3103): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3103): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3103): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3106): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3106): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3106): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3106): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3106): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3123): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3123): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3123): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3123): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3123): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3126): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3126): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3126): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3126): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3126): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3014): error C2672: 'operator __surrogate_func': no matching overloaded function found
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3201): note: see reference to function template instantiation 'void std::_Insertion_sort_unchecked<_RanIt,_Pr>(_BidIt,_BidIt,_Pr)' being compiled
+          with
+          [
+              _RanIt=std::reference_wrapper<const GPS::Location> *,
+              _Pr=std::less<void>,
+              _BidIt=std::reference_wrapper<const GPS::Location> *
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3014): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3014): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3014): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3014): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3022): error C2672: 'operator __surrogate_func': no matching overloaded function found
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3022): error C2893: Failed to specialize function template 'unknown-type std::less<void>::operator ()(_Ty1 &&,_Ty2 &&) const'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3022): note: With the following template arguments:
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3022): note: '_Ty1=std::reference_wrapper<const GPS::Location> &'
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.12.25827\include\algorithm(3022): note: '_Ty2=std::reference_wrapper<const GPS::Location> &'
